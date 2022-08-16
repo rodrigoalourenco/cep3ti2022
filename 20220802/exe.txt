@@ -1,0 +1,57 @@
+Crie um programa em que o usuário escolha uma operação (soma, subtração, multiplicação ou divisão). Crie duas caixas de texto para receber 2 números. Realize a operação escolhida em cada um dos números.
+
+Faça um algoritmo PHP que receba os valores A e B, imprima-os em ordem crescente em relação aos seus valores. Exemplo, para A=5, B=4. Você deve imprimir na tela: "4 5".
+
+Entrar com 3 números e imprimi-los em ordem decrescente (suponha números diferentes)
+
+
+if (a > b && a > c) {
+	// a
+	if(b > c) {
+		// echo a b c	
+	} else {
+		// a c b
+	}
+} else if(b > a && b > c) {
+	// b
+	if(a > c){
+		// echo b a c
+	} else {
+		// echo b c a
+	}
+} else if(c > a && c > b) {
+	// c
+	if(a > b){
+		// echo c a b
+	} else {
+		// echo c b a
+	}
+}
+
+
+SE A MAIOR B E A MAIOR C IMPRIME A
+	SE B MAIOR C
+		IMPRIME A B C
+	SENAO 
+		IMPRIME A C B
+SE B MAIOR A E B MAIOR C IMPRIME B
+	SE A MAIOR C
+		IMPRIME B A C
+	SENAO 
+		IMPRIME B C A
+SE C MAIOR A E C MAIOR B IMPRIME C
+	SE A MAIOR B
+		IMPRIME C A B
+	SENAO
+		IMPRIME C B A
+
+
+
+
+Criar um algoritmo que entre com uma palavra e imprima conforme o exemplo
+◦ Palavra: sonho
+◦ SONHO
+◦ SONHO SONHO
+◦ SONHO SONHO SONHO
+◦ SONHO SONHO SONHO SONHO
+◦ SONHO SONHO SONHO SONHO SONHO
