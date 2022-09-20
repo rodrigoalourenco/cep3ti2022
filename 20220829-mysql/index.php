@@ -5,9 +5,7 @@
 
 <body>
     <a href="readAluno.php">Busca Alunos</a>
-    <a href="deleteAluno.php">Deletar Aluno</a>
-    <a href="updateAluno.php">Alterar Aluno</a>
-    
+    <!--condicao ? inserir : altera -->
     <form action="insertAluno.php" method="post">
         Name: <input type="text" name="nome"><br>
         E-mail: <input type="text" name="email"><br>

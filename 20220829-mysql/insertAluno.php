@@ -13,7 +13,7 @@
         echo $stmt->rowCount() . " registro(s) inserido(s) com sucesso!!!";
 
         echo "<hr>";
-        echo "<a href='../20220822-mysql'>Home</a>";
+        echo "<a href='../20220829-mysql'>Home</a>";
     }
 
 ?>
